@@ -9,3 +9,6 @@ log/
 
 # virtual environment
 env/
+
+# collected project static files
+website/static/
