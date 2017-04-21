@@ -1,0 +1,13 @@
+version: '2.0'
+
+services:
+    webapp:
+        build:
+            context: ./docker
+        container_name: webapp 
+        restart: always
+        ports:
+            - 80:80
+        volumes:
+            - ./website:/home/docker/code/app
+            - ./website/static:/home/docker/volatile/static 
