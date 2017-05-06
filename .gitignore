@@ -12,3 +12,6 @@ env/
 
 # collected project static files
 website/static/
+
+# sqlite database file
+*.sqlite3
